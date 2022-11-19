@@ -15,7 +15,7 @@ html{
 
 body{
     
-    background: #221b36;
+    background: #101325;
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Arial', sans-serif;
@@ -47,12 +47,15 @@ p{
     width: 80%;
     height: 600px;
     margin: 10em auto;
-    background: rgba(59 91 106 / 18%);
+    background: #272a3a;
     background-size: cover;
 }
 
+a{
+    color: #9173f1;
+}
 .main-agileinfo{
-    width: 50%;
+    width: 40%;
     text-align: center;
     
 }
@@ -85,9 +88,9 @@ input[type="submit"] {
     font-size: .9em;
   
     color: #fff;
-    background: #7e2556;;
+    background: #f90a53;
     outline: none;
-    border:  #7e2556;
+    border:  #f90a53;
     cursor: pointer;
     padding: 0.9em;
     
