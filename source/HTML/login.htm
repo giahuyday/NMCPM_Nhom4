@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../source/Style/loginStyle.css">
+    <title>Đăng nhập</title>
+</head>
+
+<body>
+    <div class="signup">
+        <div class="login-box">
+            <h1>Đăng nhập</h1>
+            <p>Chưa có tài khoản?<a href="#" style="color: #917bf1; text-decoration:none"> Đăng ký ngay</a></p>
+            <form action="Login" method="post">
+                <input class="text" type="text" name="EmailAdress" placeholder="Nhập email hoặc tên đăng nhập"
+                    required="">
+                <input class="text" type="password" name="password" placeholder="Mật khẩu" required="">
+                <input class="text" type="checkbox" name="savelogin">
+                <label for="savelogin" style="color: white ">Giữ đăng nhập
+                    <a href="#" style="color: #917bf1; text-decoration:none">Quên mật khẩu</a>
+                </label>
+                <input type="submit" value="Đăng nhập">
+                <p style="text-align: left">Đăng nhập bằng phương thức khác</p>  
+            </form>
+        </div>     
+        <div id="poster">
+            <img src="../icon/avatar.jpg" alt="poster">
+        </div>
+    </div>
+</body>
