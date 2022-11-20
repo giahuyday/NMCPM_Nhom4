@@ -4,26 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Style/signup.css">
-    <title>Nhóm 4</title>
+    <link rel="stylesheet" href="../Style/signupStyle.css">
+    <title>Đăng ký</title>
 </head>
 <body>
     <div class="signup">
-        
+        <div class="signup-box">
             <h1>Đăng ký</h1>
-            <p>Bạn đã có tài khoản? <a href="../source/HTML/login.html">Đăng nhập ngay.</a></p>
-            <div class ="main-agileinfo">
-                <form action="#" method="post">
-                    <input class="text" type="text" name="EmailAdress" placeholder="Địa chỉ email" required="">
-                    <input class="text" type="password" name="password" placeholder="Mật khẩu" required="">
-                    <input class="text w3lpass" type="password" name="password" placeholder="Nhập lại mật khẩu" required="">
-                    <input type="submit" value="Đăng ký">
-                </form>
-                <p>Đăng nhập bằng phương thức khác</p>
+            <p>Bạn đã có tài khoản?<a href="#" style="color: #917bf1; text-decoration:none"> Đăng nhập ngay.</a></p>
+            <form action="Signup" method="post">
+                <input class="text" type="text" name="EmailAdress" placeholder="Nhập địa chỉ email"
+                    required="">
+                <input class="text" type="password" name="password" placeholder="Mật khẩu" required="">
+                <input class="text w3lpass" type="password" name="password" placeholder="Nhập lại mật khẩu" required="">
+                <input type="submit" value="Đăng ký">
+                <p style="text-align: left">Đăng nhập bằng phương thức khác</p>  
+            </form>
            
-            </div>
+        </div>     
+        <div class="poster">
+            <img src="../icon/signupImg.jpg" alt="poster">
         </div>
-        
     </div>
 
 

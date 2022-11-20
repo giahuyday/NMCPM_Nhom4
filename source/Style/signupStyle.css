@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #101325;
+}
+
+#body {
+    background: #30105e;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.signup {
+    padding: 4em 0 4em;
+    max-width: 70%;
+    max-height: 80%;
+    margin: 10em auto;
+    border-radius: 20px;
+    background-color: #272a3a;
+    background-size: cover;
+}
+
+signup .signup-box {
+    
+    max-height: auto;
+    padding-top: auto;
+    width: 30%;
+    height: auto;
+    float: left;
+}
+
+.signup-box h1 {
+    display: relative;
+    font-size: 3em;
+    font-weight: 500px;
+    text-align: left;
+    margin-left: 1em;
+    color: #fff;
+    text-transform: none;
+    letter-spacing: 4px;
+}
+
+.signup-box p {
+    text-align: left;
+    padding-top: 1em;
+    margin-left: 3em;
+    color: #fff;
+    text-decoration: none;
+}
+
+.signup-box {
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+}
+
+input[type="text"],
+input[type="password"] {
+    margin:1em 2.5em 1em 2.5em;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 100;
+    width: 80%;
+    display: block;
+    border: none;
+    border-radius: 10px;
+    padding: 0.8em;
+    border: none;
+    background-color: #474957;
+    color: #fff;
+}
+
+input[type="submit"] {
+    margin:0.4em 5em 1em 2em;
+    font-size: 1em;
+    border-radius: 10px;
+    color: #fff;
+    background: #f90a53;
+    /* outline: none; */
+    border: none;
+    cursor: pointer;
+    padding: 0.8em;
+    width: 80%;
+}
+
+signup .poster{
+    float: left;
+    
+    width: 70%;
+    height: auto;
+}
+
+.poster img{ 
+    float: right;
+    margin: 1em 2em 1em 2em;
+    width: 70%;
+    height: 80%;
+    max-width: 100%;
+    height: auto;
+    padding-left: 5%;
+    padding-right: -5%;  
+}
