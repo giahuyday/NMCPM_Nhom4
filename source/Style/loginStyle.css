@@ -16,7 +16,7 @@ html {
 }
 
 
-.signup {
+.sign-in {
     padding: 4em 0 4em;
     max-width: 70%;
     max-height: 80%;
@@ -26,12 +26,19 @@ html {
     background-size: cover;
 }
 
-signup .login-box {
+sign-in .login-box {
     max-height: auto;
     padding-top: auto;
     width: 30%;
     height: auto;
     display: inline-block;
+}
+
+.login-box {
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+    padding-left: 3em;
 }
 
 .login-box h1 {
@@ -53,14 +60,8 @@ signup .login-box {
     text-decoration: none;
 }
 
-.login-box {
-    width: 50%;
-    text-align: center;
-    display: inline-block;
-}
-
 input[type="text"],
-input[type="password"] {
+input[type="password"]{
     margin:1em 2.5em 1em 2.5em;
     font-size: 1em;
     color: #fff;
@@ -88,17 +89,17 @@ input[type="submit"] {
     width: 80%;
 }
 
-#poster{
+.sign-in #poster{
+    width: 50%;
     float:right;
-    position: fixed;
+    position: initial;
     max-width: 50%;
 }
 
 #poster img{ 
-    width: 70%;
-    height: 80%;
+    width: 300px;
     max-width: 100%;
     height: auto;
-    padding-left: 5%;
-    padding-right: -5%;
+    padding-left: 10%;
+    padding-right: -20%;
 }
