@@ -18,7 +18,7 @@ html {
 
 .signup {
     padding: 4em 0 4em;
-    max-width: 70%;
+    max-width: 50%;
     max-height: 80%;
     margin: 10em auto;
     border-radius: 20px;
@@ -77,11 +77,14 @@ input[type="password"] {
 }
 
 input[type="submit"] {
-    margin:1em 2.5em 1em 2.5em;
+    margin:2em 2.5em 1em 2.5em;
     font-size: 1em;
     border-radius: 10px;
     color: #fff;
     background: #f90a53;
+    font-weight: 100;
+    display: block;
+    
     /* outline: none; */
     border: none;
     cursor: pointer;
@@ -97,9 +100,10 @@ input[type="submit"] {
 }
 
 .poster img{ 
-    width: 300px;
+    width: 350px;
     max-width: 100%;
     height: auto;
-    padding-left: 10%;
+    padding-left: 15%;
     padding-right: -20%;
+    padding-bottom: 10%;
 }
