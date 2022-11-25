@@ -1,65 +1,65 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-html{
-    font-family: Arial, Helvetica, sans-serif;
+html {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-#header{
-    height: 46px;
-    background-color: #30105E;
-    position: fixed;
-    top: 0;
-    left: 0; right:0;
-    z-index: 1;
+#header {
+  height: 46px;
+  background-color: #30105e;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
 }
 
-#header{
-    background-color: #30105E;
+#header {
+  background-color: #30105e;
 }
 
-#nav-header{
-    display: inline-block;
+#nav-header {
+  display: inline-block;
 }
 
-#nav-header li{
-    display: inline-block;
-    line-height: 46px;
-    position: relative;
-    text-decoration: none;
+#nav-header li {
+  display: inline-block;
+  line-height: 46px;
+  position: relative;
+  text-decoration: none;
 }
 
-#nav-header li a{
-    text-decoration: none;
-    line-height: 46px;
-    font-weight: 100px;
-    padding: 0px 24px;
-    color: white;
-    display: inline-block;
-    width: 100%;
-    text-transform: uppercase;
+#nav-header li a {
+  text-decoration: none;
+  line-height: 46px;
+  font-weight: 100px;
+  padding: 0px 24px;
+  color: white;
+  display: inline-block;
+  width: 100%;
+  text-transform: uppercase;
 }
 
 #nav-header li:hover a {
-    text-decoration: underline;
-    /* color: black */
+  text-decoration: underline;
+  /* color: black */
 }
 
-#header .search-btn{
-    float: right;
-    color: white;
-    line-height: 46px;
-    padding: 0 26px;
+#header .search-btn {
+  float: right;
+  color: white;
+  line-height: 46px;
+  padding: 0 26px;
 }
 
-#body{
-    font-size: 100px;
+#body {
+  font-size: 100px;
 }
 
-
-#footer{
-    font-size: 100px;
+#footer {
+  font-size: 100px;
 }
