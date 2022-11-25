@@ -60,6 +60,13 @@ html {
   font-size: 100px;
 }
 
+#slider{
+  position: relative;
+  width: 806px;
+  height: 466;
+  overflow: hidden;
+}
+
 #footer {
   font-size: 100px;
 }
