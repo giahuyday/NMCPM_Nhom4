@@ -4,31 +4,69 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/Style/style.css" />
-    <link
-      rel="stylesheet"
-      href="../../source/icon/themify-icons/themify-icons.css"
-    />
-    <title>Nhom 4</title>
+    <title>Document</title>
     <style>
-      html {
-        background-color: #101325;
+      body {
+        margin: 0;
+        font-family: roboto;
       }
-      .navbar.is-fixed-top {
-        top: 0;
-      }
-      .navbar {
+
+      .topnav {
+        overflow: hidden;
         background-color: #30105e;
+      }
+      .topnav a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      .topnav a.active {
+        text-decoration: underline;
+      }
+      .topnav right-menu {
+        float: right;
+      }
+      .right-menu button[type="signin"] {
+        border: none;
+        color: white;
+        padding:7px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #f90a53;
+        
+      }
+
+      .topnav input[type="search"] {
+        float: none;
+        padding: 6px;
+        margin-top: 8px;
+        font-size: 17px;
+        border: none;
       }
     </style>
   </head>
   <body>
-    <nav class="navbar">
-      <div class="navbar-brand">
-        <a class="navbar-item" href="/"
-          ><img src="../icon/brand.png" alt="" class="layout_logo"/></a>
+    <div class="topnav">
+      <a class="active" href="">Trang chủ</a>
+      <a href="">Rạp</a>
+      <a href="">Tin tức</a>
+      <a href="">Ưu đãi</a>
+      <a href="">Tuyển dụng</a>
+      <div class="right-menu">
+        <input type="search" placeholder="Tìm kiếm.." />
+        <button type="signin">Đăng nhập</button>
       </div>
-      <div class="navbar-menu"></div>
-    </nav>
+    </div>
   </body>
 </html>
