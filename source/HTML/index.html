@@ -10,6 +10,11 @@
       href="../../source/icon/themify-icons/themify-icons.css"
     />
     <title>Nhom 4</title>
+    <style>
+      body{
+        background-color: #474957;
+      }
+    </style>
   </head>
   <body>
     <div id="header">
@@ -19,7 +24,7 @@
             src="../icon/brand.png"
             alt="Web-logo"
             class="layout_logo"
-            style="height: 46px"
+            style="height: 60px; padding-top: 1em;"
           />
         </a>
         <li><a href="../source/newpage.html">Trang chủ</a></li>
@@ -35,14 +40,33 @@
     </div>
 
     <div class="body">
-      <div id="slider">
-        <ul id="sliderWrap">
-          <li><img src="../images/slider1.jpg" alt="" /></li>
-          <li><img src="../images/slider2.jpg" alt="" /></li>
-          <li><img src="../images/slider3.jpg" alt="" /></li>
-        </ul>
+      <div class="slider-container">
+        <div class="menu">
+          <label for="slide-dot-1"></label>
+          <label for="slide-dot-2"></label>
+          <label for="slide-dot-3"></label>
+        </div>
+        
+        <input id="slide-dot-1" type="radio" name="slides" checked>
+          <div class="slide slide-1"></div>
+        
+        <input id="slide-dot-2" type="radio" name="slides">
+          <div class="slide slide-2"></div>
+        
+        <input id="slide-dot-3" type="radio" name="slides">
+          <div class="slide slide-3"></div>
       </div>
     </div>
+
+    <div class="broadcast">
+
+      <div class="film-container">
+        
+      </div>
+    </div>
+
+
+
 
     <div class="footer">
       <ul id="footer-image">
