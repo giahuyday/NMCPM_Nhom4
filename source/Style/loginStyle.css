@@ -89,14 +89,14 @@ input[type="submit"] {
     width: 80%;
 }
 
-.sign-in #poster{
+.sign-in .poster{
     width: 50%;
     float:right;
     position: initial;
     max-width: 50%;
 }
 
-#poster img{ 
+.poster img{ 
     width: 300px;
     max-width: 100%;
     height: auto;
