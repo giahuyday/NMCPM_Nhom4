@@ -1,0 +1,35 @@
+ /* navbar */
+ .body {
+    background-color: #4b4b4b;
+}
+
+.navbar-custom {
+    background-color: #30105e;
+}
+
+/* Modify brand and text color */
+.navbar-custom .navbar-brand {
+    width: fit-content;
+}
+
+.navbar-custom .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    background-color: #4b4b4b;
+    max-width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.login {
+    color: white;
+    text-align: center;
+    font-size:medium;
+}
+
+.login:hover{
+    text-decoration: underline;
+    color: brown;
+}
