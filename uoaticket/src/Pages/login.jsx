@@ -1,13 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './login.css'
+import logo from "./images/uoalogo.png"
 
 function Login(){
     return(      
+    <login>
     <div className="sign-in">
         <div className="login-box">
             <h1>Đăng nhập</h1>
             <p>Chưa có tài khoản ?
-            <i>Đawng ký ngay</i>
+            <Link to="/signup">Đăng kí ngay</Link>
             </p>
             <form action="Login" method="post">           
                 <input type="text" name="Name" placeholder="Nhập email hoặc tên đăng nhập" />
@@ -21,10 +24,10 @@ function Login(){
             </form>
         </div>
         <div className="poster">
-            <img src="" alt="poster"></img>
+            <img src={logo} alt="poster"></img>
         </div>
     </div>
-    );
+    </login>);
 }
 
 export default Login;

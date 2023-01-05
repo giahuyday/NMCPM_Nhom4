@@ -4,26 +4,27 @@
     box-sizing: border-box;
 }
 
-html {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: #101325;
+.container{
+    background-color: red;
 }
-
-#body {
-    background: #30105e;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
 
 .signup {
-    padding: 4em 0 4em;
-    max-width: 50%;
+    /* padding: 2em 0 2em;
+    max-width: 70%;
+    width: auto;
+    height: auto;
+    box-sizing: initial;
     max-height: 80%;
     margin: 10em auto;
     border-radius: 20px;
     background-color: #272a3a;
-    background-size: cover;
+    background-size: cover; */
+    padding: 2em 0 2em ;
+    max-width: 70%;
+    max-height: 80%;
+    margin: 10em auto;
+    display: flex;
+    background-color: #272a3a;
 }
 
 signup .signup-box {

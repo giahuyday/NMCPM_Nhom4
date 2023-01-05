@@ -1,41 +1,47 @@
 import React from "react";
 import './Home.css'
-
+import Navbar from "../Component/nav-bar";
+import slider1 from "./images/slider1.jpg"
+import slider2 from "./images/slider2.jpg"
+import slider3 from "./images/slider3.jpg"
+import FeatureProduct from "../Component/product/featureProduct";
 function Home() {
     return (
-        <><div className="container">
-            <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
+        <>
+            <Navbar />
+            <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src="/source/images/slider1.jpg" className="d-block w-100" alt="...">
-                        </img></div>
+                        <img src={slider1} className="d-block w-100" alt="slider"/>
+                    </div>
                     <div className="carousel-item">
-                        <img src="./src/images/slider2.jpg" className="d-block w-100" alt="...">
-                        </img></div>
+                        <img src={slider2} className="d-block w-100" alt="slider"/>
+                    </div>
                     <div className="carousel-item">
-                        <img src="./src/images/slider3.jpg" className="d-block w-100" alt="...">
-                        </img></div>
+                        <img src={slider3} className="d-block w-100" alt="slider"/>
+                    </div>
                 </div>
-                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
-                    data-bs-slide="prev">
+                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span className="visually-hidden">Previous</span>
                 </button>
-                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
-                    data-bs-slide="next">
+                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                     <span className="carousel-control-next-icon" aria-hidden="true"></span>
                     <span className="visually-hidden">Next</span>
                 </button>
             </div>
-        </div><div className="container">
+            <FeatureProduct/>
+            {/* <div className="container">
                 <div className="row">
-                    <div className="col">Column</div>
-                    <div className="col">Column</div>
+                <div className="col">Column</div>
+                <div className="col">Column</div>
                     <div className="w-100"></div>
                     <div className="col">Column</div>
                     <div className="col">Column</div>
-                </div>
-            </div></>
+                </div> */}
+            {/* </div> */}
+            
+        </>
     );
 }
 
