@@ -9,6 +9,8 @@ import Home from './Pages/home';
 import Footer from './Component/footer';
 import FeatureProduct from './Component/product/featureProduct';
 import Products from './Component/product/products';
+import Career from './Pages/career';
+import News from "./Pages/news"
 function App() {
   return (
     <Router>
@@ -18,8 +20,9 @@ function App() {
         <Route exact path="/login" element={<Login/>}/>
         <Route exact path="/signup" element={<Signup/>}/>
         {/* <Route path="*" element={<NoPage/>}/> */}
-        <Route exact path="/footer" element={<Footer/>}/>
         <Route exact path="/product" element={<Products/>}/>
+        <Route exact path="/discount" element={<Career/>}/>
+        <Route exact path="/career" element={<News/>}/>
       </Routes> 
     </Router>
   );

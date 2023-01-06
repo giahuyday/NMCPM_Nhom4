@@ -64,7 +64,6 @@ function FeatureProduct({type} ){
         },
     ]
     return (
-        <><Navbar/>
         <div className="featureProduct">
             <div className="top">
                 <h1>{type} Product</h1>
@@ -73,7 +72,6 @@ function FeatureProduct({type} ){
                 {data.map(item => (<Card item = {item} key={item.id}/>))}
             </div>
         </div>
-        </>
     );
 }
 
