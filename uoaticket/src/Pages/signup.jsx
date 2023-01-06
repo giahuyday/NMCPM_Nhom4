@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './signup.css'
-import poster from "./images/slider2.jpg"
+import poster from "./images/signupImg.jpg"
 function Signup() {
     return (
         <div className="container">
@@ -15,7 +15,7 @@ function Signup() {
                         <input className="text" type="password" name="password" placeholder="Mật khẩu" required=""></input>
                         <input className="text w3lpass" type="password" name="password" placeholder="Nhập lại mật khẩu" required=""></input>
                         <input type="submit" value="Đăng ký"></input>
-                        <p>Đăng nhập bằng phương thức khác</p>
+                        {/*<p>Đăng nhập bằng phương thức khác</p>*/}
                     </form>
                 </div>
                 <div className="poster">

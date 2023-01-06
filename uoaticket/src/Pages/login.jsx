@@ -15,11 +15,13 @@ function Login(){
             <p className="signup">Chưa có tài khoản ?
                 <Link to="/signu"className="s1">Đăng kí ngay</Link>
             </p>
+            
             <form action="Login" method="post">           
                 <input type="text" name="Name" placeholder="Nhập email hoặc tên đăng nhập" />
                 <input type= "text" name="Password" placeholder="Mật khẩu"/>
                 <input type='checkbox' name="savelogin"></input>
                 <label for="savelogin">Giữ đăng nhập
+                <br></br>
                     <a>Quên mật khẩu</a>
                 </label>
                 <input type="submit" name="Login"></input>  

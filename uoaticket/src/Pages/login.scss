@@ -135,12 +135,6 @@ form > label{
                 padding-left: 0.8em;
                 color: #917bf1;
             }
-
-        }
-        .icon{
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
         }
         form {
                 input[type="text"],
@@ -177,6 +171,11 @@ form > label{
                     text-decoration: none;
                 }
             }
+        }
+        .icon{
+            display: flex;
+            justify-content: space-between;
+            gap: 5px;
         }
         .poster {
             width: 50%;

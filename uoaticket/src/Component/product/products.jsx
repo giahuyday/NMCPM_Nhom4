@@ -1,8 +1,8 @@
 import React from "react";
-import "./featureProduct.scss"
-import Card from "./card"
-import Navbar from "../nav-bar";
-function FeatureProduct({type} ){
+import Card from "./card";
+import "./products.scss"
+
+function Products(){
     const data = [
         {
             id: 1,
@@ -63,18 +63,11 @@ function FeatureProduct({type} ){
             Price: 5000
         },
     ]
-    return (
-        <><Navbar/>
-        <div className="featureProduct">
-            <div className="top">
-                <h1>{type} Product</h1>
-            </div>
-            <div className="bot">
-                {data.map(item => (<Card item = {item} key={item.id}/>))}
-            </div>
+    return(
+        <div className="list">
+            {data?.map(item=>(<Card item={item} key={item.id} />))}
         </div>
-        </>
-    );
+    )
 }
 
-export default FeatureProduct;
+export default Products
