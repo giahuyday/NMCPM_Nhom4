@@ -1,16 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import './login.css'
+import './login.scss'
 import logo from "./images/uoalogo.png"
+import ava from "./images/slider3.jpg"
+import FacebookIcon from '@mui/icons-material/Facebook';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import GoogleIcon from '@mui/icons-material/Google';
 
 function Login(){
     return(      
-    <login>
     <div className="sign-in">
         <div className="login-box">
             <h1>Đăng nhập</h1>
-            <p>Chưa có tài khoản ?
-            <Link to="/signup">Đăng kí ngay</Link>
+            <p className="signup">Chưa có tài khoản ?
+                <Link to="/signu"className="s1">Đăng kí ngay</Link>
             </p>
             <form action="Login" method="post">           
                 <input type="text" name="Name" placeholder="Nhập email hoặc tên đăng nhập" />
@@ -22,12 +25,16 @@ function Login(){
                 <input type="submit" name="Login"></input>  
                 <p>Đăng nhập bằng phương thức khác</p>
             </form>
+            <div className="icon">
+                 <FacebookIcon/>
+                 <GitHubIcon/>
+                 <GoogleIcon/>
+            </div>
         </div>
         <div className="poster">
-            <img src={logo} alt="poster"></img>
+            <img src={ava} alt="poster"></img>
         </div>
-    </div>
-    </login>);
+    </div>);
 }
 
 export default Login;

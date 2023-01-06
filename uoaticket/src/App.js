@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route, Routes}
 from "react-router-dom";
 import Home from './Pages/home';
 import Footer from './Component/footer';
+import FeatureProduct from './Component/product/featureProduct';
 function App() {
   return (
     <Router>
@@ -17,6 +18,7 @@ function App() {
         <Route exact path="/signup" element={<Signup/>}/>
         {/* <Route path="*" element={<NoPage/>}/> */}
         <Route exact path="/footer" element={<Footer/>}/>
+        <Route exact path="/product" element={<FeatureProduct/>}/>
       </Routes> 
     </Router>
   );
