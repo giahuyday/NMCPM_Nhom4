@@ -30,8 +30,7 @@ function FeatureProduct({type} ){
         {
             id: 4,
             img:"https://www.cgv.vn/media/catalog/product/cache/1/thumbnail/240x388/c88460ec71d04fa96e628a21494d2fd3/a/v/avatar_2_payoff_posster_2_.jpg",
-            img2:  "https://images.pexels.com/photos/14810603/pexels-photo-14810603.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",            title: "Avatar",
-            title: 'Thien',
+            img2:  "https://images.pexels.com/photos/14810603/pexels-photo-14810603.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",          
             Price: 5000
         },
     ]

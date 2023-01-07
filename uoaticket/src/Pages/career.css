@@ -46,10 +46,13 @@
     margin:0em 2em 1em 2.5em;
     border: none;
     outline: none;
+    background-color: #f90a53 ;
     
 }
 .btn a{
-    
+    background-color: #f90a53;
+    border-style: none;
+    outline: none;
     color: aliceblue;
 }
 

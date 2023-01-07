@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './career.css'
-
+import Navbar  from "../Component/nav-bar"
 function Career() {
     return (
-        
+        <>
+        <div className="nav-bar"><Navbar/></div>
         
         <div className="container2">
             <h1>Tin tức tuyển dụng</h1>
@@ -60,20 +61,41 @@ function Career() {
                         Chi tiết
                         </a>
                     </button>
-                    
-                    
-
-
-
-                
-
+                </div>
+                <div className="btn">
+                    <button name="button" type="button">
+                        <a href="https://www.cgv.vn/default/careers/call-center-staff/">
+                        Chi tiết
+                        </a>
+                    </button>
+                </div>
+                <div className="btn">
+                    <button name="button" type="button">
+                        <a href="https://www.cgv.vn/default/careers/call-center-staff/">
+                        Chi tiết
+                        </a>
+                    </button>
+                </div>
+                <div className="btn">
+                    <button name="button" type="button">
+                        <a href="https://www.cgv.vn/default/careers/call-center-staff/">
+                        Chi tiết
+                        </a>
+                    </button>
+                </div>
+                <div className="btn">
+                    <button name="button" type="button">
+                        <a href="https://www.cgv.vn/default/careers/call-center-staff/">
+                        Chi tiết
+                        </a>
+                    </button>
                 </div>
             </div>
             
            
             
         </div>  
-        
+        </>
         );
 }
 

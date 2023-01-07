@@ -1,10 +1,14 @@
+.navbar{
+    padding: 0;
+    width: 100%;
+}
 
 .list{
-    padding: 60px 200px;
+    padding: 100px 200px;
     display: flex;
     justify-content: space-between;
-    gap: 50px;
     flex-wrap: wrap;
-    background-color: #272a3a;
+    gap: 50px;
+    // background-color: #272a3a;
     color: white
 }

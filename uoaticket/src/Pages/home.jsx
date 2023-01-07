@@ -31,8 +31,9 @@ function Home() {
                     <span className="visually-hidden">Next</span>
                 </button>
             </div>
-            <FeatureProduct/>
-            <Footer/>
+            <div className="featureProduct"><FeatureProduct/></div>
+            <div className="footer"><Footer/></div>
+            
         </>
     );
 }
