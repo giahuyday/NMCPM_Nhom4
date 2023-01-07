@@ -1,221 +1,220 @@
 .cont {
-    position: absolute;
-    top: 122px;
-    left: 196px;
-    border-radius: 43px;
-    background-color: #272a3a;
-    width: 1528px;
-    height: 836px;
-  }
-  .ellipse-icon {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-  }
-  .icon-metro-cross {
-    position: absolute;
-    top: calc(50% - 8.76px);
-    left: calc(50% - 8.26px);
-    width: 17.52px;
-    height: 17.52px;
-  }
-  .exit {
-    cursor: pointer;
-    border: 0;
-    padding: 0;
-    background-color: transparent;
-    position: absolute;
-    top: 162px;
-    right: 230px;
-    width: 55px;
-    height: 55px;
-  }
-  .checkout1 {
-    top: calc(50% - 16.5px);
-    left: calc(50% - 70.5px);
-    font-size: 28px;
-    font-family: Roboto;
-    color: #fff;
-    text-align: center;
-  }
-  .checkout,
-  .checkout1,
-  .vnd {
-    position: absolute;
-  }
-  .checkout {
-    cursor: pointer;
-    border: 0;
-    padding: 0;
-    background-color: #f90a53;
-    top: 835px;
-    left: 960px;
-    border-radius: 36px;
-    width: 593px;
-    height: 71px;
-  }
-  .vnd {
-    margin: 0;
-    top: 752px;
-    left: 1305px;
-    font-size: 40px;
-    font-weight: 700;
-    font-family: inherit;
-    text-align: right;
-  }
-  .seatc5-formcheck {
-    position: absolute;
-    top: 622px;
-    left: 1423px;
-  }
-  .seatc3-formcheck,
-  .seatc4-formcheck {
-    position: absolute;
-    top: 622px;
-    left: 1313px;
-  }
-  .seatc3-formcheck {
-    left: 1203px;
-  }
-  .seatc1-formcheck,
-  .seatc2-formcheck {
-    position: absolute;
-    top: 622px;
-    left: 1093px;
-  }
-  .seatc1-formcheck {
-    left: 983px;
-  }
-  .seatb5-formcheck {
-    position: absolute;
-    top: 512px;
-    left: 1423px;
-  }
-  .seatb3-formcheck,
-  .seatb4-formcheck {
-    position: absolute;
-    top: 512px;
-    left: 1313px;
-  }
-  .seatb3-formcheck {
-    left: 1203px;
-  }
-  .seatb1-formcheck,
-  .seatb2-formcheck {
-    position: absolute;
-    top: 512px;
-    left: 1093px;
-  }
-  .seatb1-formcheck {
-    left: 983px;
-  }
-  .seata4-formcheck,
-  .seata5-formcheck {
-    position: absolute;
-    top: 402px;
-    left: 1423px;
-  }
-  .seata4-formcheck {
-    left: 1313px;
-  }
-  .seata2-formcheck,
-  .seata3-formcheck {
-    position: absolute;
-    top: 402px;
-    left: 1203px;
-  }
-  .seata2-formcheck {
-    left: 1093px;
-  }
-  .chooseseat,
-  .seata1-formcheck {
-    position: absolute;
-    top: 402px;
-    left: 983px;
-  }
-  .chooseseat {
-    margin: 0;
-    top: 358px;
-    left: 960px;
-    font-size: inherit;
-    font-weight: 700;
-    font-family: inherit;
-  }
-  .rap-child {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    border-radius: 13px;
-    background-color: #474957;
-  }
-  .rap1 {
-    position: absolute;
-    top: calc(50% - 10.5px);
-    left: 32px;
-  }
-  .rap,
-  .time {
-    top: 267px;
-    height: 71px;
-  }
-  .rap {
-    position: absolute;
-    left: 1256px;
-    width: 297px;
-  }
-  .time {
-    left: 960px;
-    width: 284px;
-  }
-  .city,
-  .filmname,
-  .time {
-    position: absolute;
-  }
-  .city {
-    top: 174px;
-    left: 960px;
-    width: 593px;
-    height: 71px;
-  }
-  .seat > * {
-    font-size: 40px;
-  }
-  .filmname {
-    margin: 0;
-    top: 835px;
-    left: 385px;
-    font-size: 50px;
-    font-weight: 700;
-    font-family: inherit;
-  }
-  .thumnailfilm-icon {
-    position: absolute;
-    top: 181px;
-    left: 328px;
-    width: 421px;
-    height: 621px;
-    object-fit: cover;
-  }
-  .phim-rap-ghe {
-    position: relative;
-    background-color: #101325;
-    width: 100%;
-    height: 1080px;
-    text-align: left;
-    font-size: 20px;
-    color: #fff;
-    font-family: Roboto;
-  }
-  
+  position: absolute;
+  top: 122px;
+  left: 196px;
+  border-radius: 43px;
+  background-color: #272a3a;
+  width: 1528px;
+  height: 836px;
+}
+.ellipse-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.icon-metro-cross {
+  position: absolute;
+  top: calc(50% - 8.76px);
+  left: calc(50% - 8.26px);
+  width: 17.52px;
+  height: 17.52px;
+}
+.exit {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 162px;
+  right: 230px;
+  width: 55px;
+  height: 55px;
+}
+.checkout1 {
+  top: calc(50% - 16.5px);
+  left: calc(50% - 70.5px);
+  font-size: 28px;
+  font-family: Roboto;
+  color: #fff;
+  text-align: center;
+}
+.checkout,
+.checkout1,
+.vnd {
+  position: absolute;
+}
+.checkout {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #f90a53;
+  top: 835px;
+  left: 960px;
+  border-radius: 36px;
+  width: 593px;
+  height: 71px;
+}
+.vnd {
+  margin: 0;
+  top: 752px;
+  left: 1305px;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: inherit;
+  text-align: right;
+}
+.seatc5-formcheck {
+  position: absolute;
+  top: 622px;
+  left: 1423px;
+}
+.seatc3-formcheck,
+.seatc4-formcheck {
+  position: absolute;
+  top: 622px;
+  left: 1313px;
+}
+.seatc3-formcheck {
+  left: 1203px;
+}
+.seatc1-formcheck,
+.seatc2-formcheck {
+  position: absolute;
+  top: 622px;
+  left: 1093px;
+}
+.seatc1-formcheck {
+  left: 983px;
+}
+.seatb5-formcheck {
+  position: absolute;
+  top: 512px;
+  left: 1423px;
+}
+.seatb3-formcheck,
+.seatb4-formcheck {
+  position: absolute;
+  top: 512px;
+  left: 1313px;
+}
+.seatb3-formcheck {
+  left: 1203px;
+}
+.seatb1-formcheck,
+.seatb2-formcheck {
+  position: absolute;
+  top: 512px;
+  left: 1093px;
+}
+.seatb1-formcheck {
+  left: 983px;
+}
+.seata4-formcheck,
+.seata5-formcheck {
+  position: absolute;
+  top: 402px;
+  left: 1423px;
+}
+.seata4-formcheck {
+  left: 1313px;
+}
+.seata2-formcheck,
+.seata3-formcheck {
+  position: absolute;
+  top: 402px;
+  left: 1203px;
+}
+.seata2-formcheck {
+  left: 1093px;
+}
+.chooseseat,
+.seata1-formcheck {
+  position: absolute;
+  top: 402px;
+  left: 983px;
+}
+.chooseseat {
+  margin: 0;
+  top: 358px;
+  left: 960px;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.rap-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 13px;
+  background-color: #474957;
+}
+.rap1 {
+  position: absolute;
+  top: calc(50% - 10.5px);
+  left: 32px;
+}
+.rap,
+.time {
+  top: 267px;
+  height: 71px;
+}
+.rap {
+  position: absolute;
+  left: 1256px;
+  width: 297px;
+}
+.time {
+  left: 960px;
+  width: 284px;
+}
+.city,
+.filmname,
+.time {
+  position: absolute;
+}
+.city {
+  top: 174px;
+  left: 960px;
+  width: 593px;
+  height: 71px;
+}
+.seat > * {
+  font-size: 40px;
+}
+.filmname {
+  margin: 0;
+  top: 835px;
+  left: 385px;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.thumnailfilm-icon {
+  position: absolute;
+  top: 181px;
+  left: 328px;
+  width: 421px;
+  height: 621px;
+  object-fit: cover;
+}
+.phim-rap-ghe {
+  position: relative;
+  background-color: #101325;
+  width: 100%;
+  height: 1080px;
+  text-align: left;
+  font-size: 20px;
+  color: #fff;
+  font-family: Roboto;
+}
