@@ -20,11 +20,6 @@ function Navbar() {
 
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
-                    {/* <a className="nav-link " aria-current="page" href="#">Trang chủ</a>
-                    <a className="nav-link" href="#">Rạp</a>
-                    <a className="nav-link" href="#">Tin tức</a>
-                    <a className="nav-link" href="#">Ưu đãi</a>
-                    <a className="nav-link" href="#">Tuyển dụng</a> */}
                     <Link to="/home" className="nav-link" path="/">Trang chủ</Link>
                     <Link to="/theatre" className="nav-link" path="/theatre">Rạp</Link>
                     <Link to="/news" className="nav-link" path="/news">Tin tức</Link>

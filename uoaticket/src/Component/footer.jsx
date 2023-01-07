@@ -1,11 +1,14 @@
 import React from "react";
+import footer from "../Pages/images/footer-bg.jpg"
+
 function Footer() {
     return (
         <footer>
-            <div class="card bg-dark text-white">
-                <img src="../images/footer-bg.jpg" alt="footer" />
+            <div className="card bg-dark text-white">
+                <img src={footer} alt="footer" />
             </div>
         </footer>
     );
 }
+
 export default Footer

@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "./card";
 import "./products.scss"
+import Navbar from "../nav-bar";
 
 function Products(){
     const data = [
@@ -64,9 +65,11 @@ function Products(){
         },
     ]
     return(
+        <><Navbar/>
         <div className="list">
             {data?.map(item=>(<Card item={item} key={item.id} />))}
         </div>
+        </>
     )
 }
 
