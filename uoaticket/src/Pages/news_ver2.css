@@ -1,0 +1,130 @@
+body {
+    font-family: Tahoma;
+    font-size: 13px;
+    width: 100%;
+    margin: 0px auto;
+    
+}
+
+#banner{
+    background: red;
+    height: auto;
+    width: 100%;
+}
+
+#main #left{
+    width: 50%;
+    float: left;
+    min-height: 400px;
+    padding-top: 1em;
+    padding-left: 2em;
+    color: #FFF
+}
+#main #right{
+    width: 50%;
+    /* background: blue; */
+    float:left;
+    min-height: 400px;
+    padding-top: 1em;
+    padding-left: 1em;
+    color: #FFF
+}
+#footer {
+    background-color: #101325;
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    color: #FFF;
+    clear: left;
+    line-height: 60px;
+    float: left;
+}
+/* #footer #footer_1 {
+    width: 20%;
+}
+#footer #footer_1 img{
+    float: left;
+    padding-left: 2em;
+}
+#footer #footer_2 {
+    width: 80%;
+}
+#footer #footer_2 p{
+    float: left;
+    clear: left;
+    padding-left: 2em;
+    padding-top: 0.5em;
+} */
+/* #banner{
+    background: ;
+} */
+#main #right ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+#main #right ul li{
+    list-style: none;
+    clear: left;
+    border-bottom: 2px solid #ccc;
+    float: left;
+    margin-bottom: 20px;
+}
+#main #right ul li img{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+#main #right ul li h2{
+    font-size: 18px;
+    text-decoration-color: #FFF;
+    color: rgb(40, 155, 242);
+}
+#main{
+    margin-top: 10px;
+}
+
+
+#main #left #left_1 img{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+#main #left #left_1 h2{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+#main #left #left_1 p{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+/* #main #left_2 ul{
+    margin: 0px;
+    padding: 0px;
+} */
+
+#main #left #left_2 li{
+    list-style: none;
+    clear: left;
+    border-bottom: 2px solid #ccc;
+    float: left;
+    margin-bottom: 21.2px;
+}
+#main #left #left_2 li img{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+#main #left #left_2 li h2{
+    font-size: 18px;
+    text-decoration-color: #FFF;
+    color: rgb(40, 155, 242);
+}
+#banner img{
+    width: 100%;
+    height: auto;
+    padding: 1em 1em 1em 1em;
+}
