@@ -1,0 +1,128 @@
+.admin-add-film-child {
+  position: absolute;
+  top: 122px;
+  left: 196px;
+  border-radius: 43px;
+  background-color: #272a3a;
+  width: 1528px;
+  height: 836px;
+}
+.exit{
+  size: 100%;
+  position: absolute;
+  top: 0;
+  right: -100;
+}
+.exit-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.icon-metro-cross {
+  position: absolute;
+  top: calc(50% - 8.76px);
+  left: calc(50% - 8.26px);
+  width: 17.52px;
+  height: 17.52px;
+}
+.exit {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 162px;
+  right: 230px;
+  width: 55px;
+  height: 55px;
+}
+.rewrite {
+  top: calc(50% - 16.5px);
+  left: calc(50% - 52px);
+  font-size: 28px;
+  font-family: Roboto;
+  color: #fff;
+  text-align: center;
+}
+.cancel,
+.rewrite,
+.update {
+  position: absolute;
+}
+.cancel {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  color: white;
+  font-size: 20px;
+  background-color: #4b4b4b;
+  top: 811px;
+  left: 461px;
+  border-radius: 36px;
+  width: 364px;
+  height: 71px;
+}
+.update {
+  top: calc(50% - 16.5px);
+  left: calc(50% - 56px);
+  font-size: 28px;
+  font-family: Roboto;
+  color: #fff;
+  text-align: center;
+}
+.detail,
+.namefilm,
+.summit,
+.uploadpic {
+  border: 0;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  height: 71px;
+}
+.summit {
+  cursor: pointer;
+  padding: 0;
+  background-color: #f90a53;
+  top: 811px;
+  left: 890px;
+  border-radius: 36px;
+  width: 30%;
+}
+.detail,
+.namefilm,
+.uploadpic {
+  background-color: transparent;
+  top: 230px;
+  left: 887px;
+  width: 30%;
+}
+.detail,
+.uploadpic {
+  top: 340px;
+  left: 885px;
+  width: 30%;
+  height: 420px;
+}
+.uploadpic {
+  top: 230px;
+  left: 461px;
+  background-color: #989898;
+  border: 1px solid #707070;
+  box-sizing: border-box;
+  width: 364px;
+  height: 530px;
+}
+.admin-add-film {
+  position: relative;
+  background-color: #101325;
+  width: 100%;
+  height: 1080px;
+}
