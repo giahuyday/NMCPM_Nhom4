@@ -9,6 +9,7 @@ function Career() {
         
         <div className="container2">
             <h1>Tin tức tuyển dụng</h1>
+            <br/>
             <div className="cv1">
                 <div className="image">
                     <img src="https://png.pngtree.com/png-vector/20191024/ourmid/pngtree-phone-icon-isolated-on-abstract-background-png-image_1862613.jpg"/>
