@@ -7,51 +7,51 @@
   width: 1528px;
   height: 836px;
 }
-.ellipse-icon {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-}
-.icon-metro-cross {
-  position: absolute;
-  top: calc(50% - 8.76px);
-  left: calc(50% - 8.26px);
-  width: 17.52px;
-  height: 17.52px;
-}
+
 .exit {
   cursor: pointer;
   border: 0;
   padding: 0;
-  background-color: transparent;
+  color: white;
+  background-color: #272a3a;
   position: absolute;
+  display: right;
+  size: 100px;
   top: 162px;
   right: 230px;
   width: 55px;
   height: 55px;
 }
-.checkout1 {
+.thanhtoan {
   top: calc(50% - 16.5px);
   left: calc(50% - 70.5px);
   font-size: 28px;
   font-family: Roboto;
   color: #fff;
   text-align: center;
+  background-color: #272a3a;
 }
-.checkout,
-.checkout1,
-.vnd {
+
+.checkout,  
+.thanhtoan,
+.money {
+  
   position: absolute;
+  background-color: #272a3a;
+}
+
+.rap, .time, .city{
+  color: white;
+  border-radius: 13px;
+}
+.seat > * .form-check-input{
+  margin-top: 0px;
+  display: flex;
 }
 .checkout {
   cursor: pointer;
+  font-size: 20px;
+  color: white;
   border: 0;
   padding: 0;
   background-color: #f90a53;
@@ -61,11 +61,11 @@
   width: 593px;
   height: 71px;
 }
-.vnd {
+.money {
   margin: 0;
+  display: flex;
   top: 752px;
   left: 1305px;
-  font-size: 40px;
   font-weight: 700;
   font-family: inherit;
   text-align: right;
@@ -144,6 +144,7 @@
   margin: 0;
   top: 358px;
   left: 960px;
+  background-color: #272a3a;
   font-size: inherit;
   font-weight: 700;
   font-family: inherit;
@@ -193,6 +194,8 @@
   font-size: 40px;
 }
 .filmname {
+  position: absolute;
+  background-color: #272a3a;
   margin: 0;
   top: 835px;
   left: 385px;
@@ -218,3 +221,4 @@
   color: #fff;
   font-family: Roboto;
 }
+

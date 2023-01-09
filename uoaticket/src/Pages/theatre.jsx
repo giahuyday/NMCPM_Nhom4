@@ -2,19 +2,25 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Form } from "react-bootstrap";
 import "./theatre.css";
-
+import CloseIcon from '@mui/icons-material/Close';
+// import avatars from "./images/slider1.jpg";
+import Navbar from "../Component/nav-bar"
 const Theatre = () => {
   return (
+    <><Navbar />
     <div className="phim-rap-ghe">
       <div className="cont" />
+
       <button className="exit">
-        <img className="ellipse-icon" alt="" src="../ellipse.svg" />
-        <img className="icon-metro-cross" alt="" src="../icon-metrocross.svg" />
+          <CloseIcon/>
       </button>
+
       <button className="checkout">
-        <b className="checkout1">Thanh toán</b>
+        Thanh toán
       </button>
-      <h4 className="vnd">000.000 VND</h4>
+
+      <h4 className="money">000.000 VND</h4>
+
       <div className="seat">
         <Form.Check className="seatc5-formcheck" />
         <Form.Check className="seatc4-formcheck" />
@@ -34,22 +40,31 @@ const Theatre = () => {
       </div>
 
       <h5 className="chooseseat">Chọn ghế ngồi</h5>
-      <div className="rap">
-        <div className="rap-child" />
-        <b className="rap1">Rạp</b>
-      </div>
-      <div className="time">
-        <div className="rap-child" />
-        <b className="rap1">Giờ chiếu</b>
-      </div>
-      <div className="city">
-        <div className="rap-child" />
-        <b className="rap1">Tỉnh/Thành Phố</b>
-      </div>
+
+      <select className="rap">
+        <option value="hcm">TP.HCM</option>
+      </select>
+
+      <select className="time">
+        <option value="16">16h</option>
+        <option value="19">19h</option>
+        <option value="21">21h</option>
+        <option value="22">22h</option>
+      </select>
+
+      <select className="city">
+        <option value="hcm">TP.HCM</option>
+      </select>
+
       <h3 className="filmname">Avatar (2022)</h3>
-      <img className="thumnailfilm-icon" alt="" src="../thumnailfilm@2x.png" />
-    </div>
+
+      <img className="thumnailfilm-icon" alt="" src="avatar" />
+    </div></>
   );
 };
 
 export default Theatre;
+
+
+
+
