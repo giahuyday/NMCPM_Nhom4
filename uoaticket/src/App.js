@@ -11,18 +11,23 @@ import FeatureProduct from './Component/product/featureProduct';
 import Products from './Component/product/products';
 import Career from './Pages/career';
 import News from "./Pages/news"
-import Theatre from './Pages/theatre';
+import News_ver2 from "./Pages/news_ver2"
+import Career_ver2 from "./Pages/career_ver2"
+// import Theatre from './Pages/theatre';
 function App() {
   return (
     <Router>
       {/* <Navbar/> */}
       <Routes>
-        <Route exact path="/*" element={<Theatre/>}/>
+        {/* <Route exact path="/*" element={<Theatre/>}/> */}
         <Route exact path="/login" element={<Login/>}/>
         <Route exact path="/signup" element={<Signup/>}/>
         <Route exact path="/product" element={<Products/>}/>
         <Route exact path="/career" element={<Career/>}/>
         <Route exact path="/news" element={<News/>}/>
+        <Route exact path="/home" element={<Home/>}/>
+        <Route exact path="/news_ver2" element={<News_ver2/>}/>
+        <Route exact path="/career_ver2" element={<Career_ver2/>}/>
       </Routes> 
     </Router>
   );
