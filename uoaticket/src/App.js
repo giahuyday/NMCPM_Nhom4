@@ -12,13 +12,12 @@ import Products from './Component/product/products';
 import Career from './Pages/career';
 import News from "./Pages/news"
 import Theatre from './Pages/theatre';
-import AdminAddFilm from './Pages/add-film';
 function App() {
   return (
     <Router>
       {/* <Navbar/> */}
       <Routes>
-        <Route exact path="/*" element={<AdminAddFilm/>}/>
+        <Route exact path="/*" element={<Theatre/>}/>
         <Route exact path="/login" element={<Login/>}/>
         <Route exact path="/signup" element={<Signup/>}/>
         <Route exact path="/product" element={<Products/>}/>
