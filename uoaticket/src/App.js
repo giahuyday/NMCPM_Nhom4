@@ -11,13 +11,8 @@ import FeatureProduct from './Component/product/featureProduct';
 import Products from './Component/product/products';
 import Career from './Pages/career';
 import News from "./Pages/news"
-import { useDispatch } from "react-redux"
-import * as actions from "./redux/actions"
-
+import Theatre from './Pages/theatre';
 function App() {
-  // const dispath = useDispatch()
-
-  // dispath(actions.getUser.getUserRequest())
   return (
     <Router>
       {/* <Navbar/> */}
