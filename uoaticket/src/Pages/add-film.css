@@ -7,7 +7,7 @@
   width: 1528px;
   height: 836px;
 }
-.exit{
+.exit {
   size: 100%;
   position: absolute;
   top: 0;
@@ -80,7 +80,8 @@
 .detail,
 .namefilm,
 .summit,
-.uploadpic {
+.uploadpic,
+.preview-image {
   border: 0;
   font-size: 20px;
   color: white;
@@ -98,20 +99,23 @@
 }
 .detail,
 .namefilm,
-.uploadpic {
+.uploadpic,
+.preview-image {
   background-color: transparent;
   top: 230px;
   left: 887px;
   width: 30%;
 }
 .detail,
-.uploadpic {
+.uploadpic,
+.preview-image {
   top: 340px;
   left: 885px;
   width: 30%;
   height: 420px;
 }
-.uploadpic {
+.uploadpic,
+.preview-image {
   top: 230px;
   left: 461px;
   background-color: #989898;
