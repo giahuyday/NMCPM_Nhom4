@@ -20,32 +20,26 @@ const AdminAddFilm = () => {
   return (
     <div className="admin-add-film">
 
-      <div className="admin-add-film-child" />
+      <div className="box" />
 
-      <button className="exit">
-        <CloseIcon/>
-      </button>
+      <button className="exit" />
 
-      {imageUrl && <button className="cancel" onClick={handleRemove}>Nhập lại
+      {imageUrl && <button className="cancel"onClick={handleRemove}> Nhập lại
       </button>}
-      
+
       <button className="summit">Cập nhật
       </button>
 
-      <form className="film-form">
-      <input className="film-name" type="text" placeholder="Tên" name="name" required />
-      <input className="category" type="text" placeholder="Thể loại" name="category" required />
-      <input className="detail" type="text" placeholder="Mô tả" name="detail" required />
+      <form className="form">
+        <input className="detail" type="text" placeholder="Mô tả" />
+        <input className="category" type="text" placeholder="Thể loại" />
+        <input className="name" type="text" placeholder="Tên film" />
+        <input className="uploadpic" type="file" required onChange={handleChange} />
+        {imageUrl && <img className="preview-image" src={imageUrl} alt="uploaded image" />}
       </form>
 
-      { imageUrl && <img className="preview-image" src={imageUrl} alt="uploaded image" /> }
     </div>
   );
 };
 
 export default AdminAddFilm;
-
-
-
-
-
