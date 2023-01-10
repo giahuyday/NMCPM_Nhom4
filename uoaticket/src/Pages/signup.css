@@ -2,10 +2,40 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* background-color: #272a3a; */
 }
 
-.container{
-    background-color: red;
+.container {
+    padding-top: 9em;
+    /* padding-top: 0;
+    padding-bottom: 0; */
+    /* background-color: #4b4b4b; */
+    /* max-width: 100%;
+    padding-left: 10%;
+    padding-right: 10%; */
+}
+.signup{
+    padding-left: 10em;
+    width: 100%;
+    /* background-color: #4b4b4b; */
+    /* background-color: #272a3a; */
+    padding-top: 9em;
+}
+
+.signup .signup-box{
+    
+    width: 60%;
+    float: left;
+    color: #fff;
+    
+}
+
+.signup .poster{
+    width: 40%;
+    float: left;
+}
+/* .container{
+    background-color: #272a3a;
 }
 
 .signup {
@@ -18,7 +48,7 @@
     margin: 10em auto;
     border-radius: 20px;
     background-color: #272a3a;
-    background-size: cover; */
+    background-size: cover; 
     padding: 2em 0 2em ;
     max-width: 70%;
     max-height: 80%;
@@ -28,7 +58,7 @@
 }
 
 signup .signup-box {
-    
+    background-color: #272a3a;
     max-height: auto;
     padding-top: auto;
     width: 30%;
@@ -86,7 +116,7 @@ input[type="submit"] {
     font-weight: 100;
     display: block;
     
-    /* outline: none; */
+    /* outline: none; 
     border: none;
     cursor: pointer;
     padding: 0.8em;
@@ -107,4 +137,4 @@ input[type="submit"] {
     padding-left: 15%;
     padding-right: -20%;
     padding-bottom: 10%;
-}
+} */
