@@ -3,9 +3,12 @@ import { Link } from "react-router-dom";
 import './news_ver2.css'
 import banner from "./images/banner.png"
 import logo from "./images/uoalogo.png"
+import Navbar from "../Component/nav-bar"
+
 function News() {
     return (
         <>
+        <Navbar/>
         <body>
             <div id="banner">
                 <img src={banner} ></img>
@@ -29,16 +32,16 @@ function News() {
                             Đạo diễn James Cameron khẳng định sẽ làm thêm các phần tiếp theo của loạt phim "Avatar" nhờ lợi nhuận từ phần hai
                         </li>
                         <li>
-                            <img src="https://i1-giaitri.vnecdn.net/2023/01/07/minhhangtop1-1673058606-9849-1673058842.jpg?w=240&h=144&q=100&dpr=1&fit=crop&s=Ls6bLN1lp6tUepCCH9caTg" alt="news-movie"/>
-                            <a href="https://vnexpress.net/phim-chi-chi-em-em-2-xoay-vao-moi-thu-ba-tra-tu-nhi-4557269.html">
-                            <h2>Phim 'Chị chị em em 2' xoáy vào mối thù Ba Trà, Tư Nhị</h2></a>
-                            "Chị chị em em 2" - phim Minh Hằng, Ngọc Trinh đóng - xoáy sâu chuyện tranh quyền đoạt vị của mỹ nhân Ba Trà, Tư Nhị. 
+                            <img src="https://i1-giaitri.vnecdn.net/2022/12/10/JamesCameron123123-1670626416-1166-1670626477.png?w=240&h=144&q=100&dpr=1&fit=crop&s=qAiMcPkdFCxLUxtJk_FW4Q" alt="news-movie"/>
+                            <a href="https://vnexpress.net/james-cameron-ky-xao-avatar-2-tot-hon-phim-marvel-4546439.html">
+                            <h2>James Cameron: 'Kỹ xảo Avatar 2 tốt hơn phim Marvel'</h2></a>
+                            Đạo diễn James Cameron cho rằng kỹ xảo các bom tấn Marvel không đủ tầm so sánh với "Avatar: The Way of Water" của ông.
                         </li>
                         <li>
-                            <img src="https://i1-giaitri.vnecdn.net/2023/01/07/minhhangtop1-1673058606-9849-1673058842.jpg?w=240&h=144&q=100&dpr=1&fit=crop&s=Ls6bLN1lp6tUepCCH9caTg" alt="news-movie"/>
-                            <a href="https://vnexpress.net/phim-chi-chi-em-em-2-xoay-vao-moi-thu-ba-tra-tu-nhi-4557269.html">
-                            <h2>Phim 'Chị chị em em 2' xoáy vào mối thù Ba Trà, Tư Nhị</h2></a>
-                            "Chị chị em em 2" - phim Minh Hằng, Ngọc Trinh đóng - xoáy sâu chuyện tranh quyền đoạt vị của mỹ nhân Ba Trà, Tư Nhị. 
+                            <img src="https://i1-giaitri.vnecdn.net/2022/12/07/phimviettop-1670414795-1670414-9244-3657-1670414839.jpg?w=240&h=144&q=100&dpr=1&fit=crop&s=iYvgkEB4iDqFyxo66q1pYg" alt="news-movie"/>
+                            <a href="https://vnexpress.net/10-phim-dien-anh-duoc-nguoi-viet-tim-kiem-nhat-nam-2022-4545446.html">
+                            <h2>10 phim điện ảnh được người Việt tìm kiếm nhất năm 2022</h2></a>
+                            "Em và Trịnh", "Doctor Strange 2", "Bẫy ngọt ngào"... vào top 10 phim chiếu rạp được người Việt tìm nhiều nhất năm trên Google. 
                         </li>
                     
                     </div>
