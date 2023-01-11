@@ -1,0 +1,21 @@
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    gap: 100px;
+    box-sizing: border-box;
+    // z-index: 10;
+    .image {
+        float: right;
+        img {
+            width: 200px;
+            height: 200px;
+        }
+    }
+
+    .content {
+        float: left;
+    }
+}

@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.sign-in {
+    padding: 2em 0 2em;
+    max-width: 70%;
+    max-height: 80%;
+    margin: 10em auto;
+    border-radius: 20px;
+    background-size: contain;
+    /* background-color:#272a3a; */
+}
+
+.sign-in .login-box p{
+    float: left;
+    /* background-color:#272a3a; */
+}
+
+.sign-in .login-box form a {
+    color: #fff;
+    /* float: left; */
+    /* padding */
+}
+
+.sign-in .login-box .icon {
+    float: left;
+    color: #fff;
+    margin-top: 0.88em;
+    
+    margin-left: 0.8em;
+}
+/* sign-in .login-box {
+    max-height: auto;
+    padding-top: auto;
+    width: 30%;
+    height: auto;
+    display: inline-block;
+} */
+.sign-in .poster img{
+    /* padding-right: 3em; */
+    float: left;
+    margin-left: 5em;
+    margin-top: 1em;
+}
+
+.login-box {
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+    padding-left: 3em; 
+}
+
+.login-box a {
+    color: #917bf1;
+}
+.sign-in .login-box h1 {
+    display: relative;
+    font-size: 3em;
+    font-weight: 500px;
+    text-align: left;
+    margin-left: 1em;
+    color: #fff;
+    text-transform: none;
+    letter-spacing: 4px;
+}
+
+.login-box p {
+    text-align: left;
+    padding-top: 1em;
+    margin-left: 3em;
+    color: #fff;
+    text-decoration: none;
+}
+
+input[type="text"],
+input[type="password"]{
+    margin:1em 2.5em 1em 2.5em;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 100;
+    width: 80%;
+    display: block;
+    border: none;
+    border-radius: 10px;
+    padding: 0.8em;
+    border: none;
+    background-color: #474957;
+    color: #fff;
+}
+
+input[type="button"] {
+    margin:1em 2em 1em 2em;
+    font-size: 1em;
+    border-radius: 10px;
+    color: #fff;
+    background: #f90a53;
+    /* outline: none; */
+    border: none;
+    cursor: pointer;
+    padding: 0.8em;
+    width: 80%;
+}
+
+form > label{
+    color: #fff;
+    text-decoration: none;
+}
+
+.sign-in .poster{
+    width: 50%;
+    float:right;
+    position: initial;
+    max-width: 50%;
+}
+.poster img{ 
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    padding-left: 10%;
+    padding-right: -20%;
+}
