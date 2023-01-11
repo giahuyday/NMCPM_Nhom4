@@ -14,6 +14,7 @@ import Career from "./Pages/career_ver2"
 import AdminAddFilm from './Pages/add-film';
 import FilmListing from "./Pages/FilmListing"
 import FilmComponent from './Pages/FilmComponent';
+import FilmListing from './Pages/FilmListing'
 function App() {
   return (
     <Router>
@@ -26,6 +27,7 @@ function App() {
         <Route exact path="/career" element={<Career/>}/>
         <Route exact path="/discount" element={<FilmListing/>}/>
         <Route exact path="/adfilm" element={<AdminAddFilm/>}/>
+        <Route exact path="/allfilm" element={<FilmListing/>}/>
         <Route exact path="/news_ver2" element={<News/>}/>
         <Route exact path="/career_ver2" element={<Career/>}/>
       </Routes> 
