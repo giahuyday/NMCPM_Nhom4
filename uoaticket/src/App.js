@@ -12,6 +12,7 @@ import Career from "./Pages/career_ver2"
 // import FilmListing from "./Pages/film_listing"
 // import Theatre from './Pages/theatre';
 import FilmComponent from './Pages/FilmComponent';
+import FilmListing from './Pages/FilmListing'
 function App() {
   return (
     <Router>
@@ -22,7 +23,7 @@ function App() {
         <Route exact path="/signup" element={<Signup/>}/>
         <Route exact path="/product" element={<Products/>}/>
         <Route exact path="/career" element={<Career/>}/>
-        <Route exact path="/discount" element={<FilmComponent/>}/>
+        <Route exact path="/allfilm" element={<FilmListing/>}/>
         <Route exact path="/news_ver2" element={<News/>}/>
         <Route exact path="/career_ver2" element={<Career/>}/>
       </Routes> 
