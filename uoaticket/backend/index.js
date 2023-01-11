@@ -58,6 +58,7 @@ app.use('/createfilm', async (req, res) => {
         // }
         await film.create({
             filmname,
+            images,
             desciption,
         });
         res.send({ status: 'ok' })
