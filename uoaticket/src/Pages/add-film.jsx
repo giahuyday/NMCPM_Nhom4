@@ -42,15 +42,12 @@ export default class AdminAddFilm extends Component {
       <div className="admin-add-film-child" />
       <button className="exit">
         <CloseIcon/>
-      </button>
-      <button className="cancel">Nhập lại
-      </button>
-      <button className="summit" onClick={this.handleSubmit}>Cập nhật
-      </button>
+        </button>
       <input className="namefilm" type="text" placeholder="Tên film" required  onChange={(e) => this.setState({ filmname: e.target.value })} />
       <input className="detail" type="text" placeholder="Mô tả" required  onChange={(e) => this.setState({ description: e.target.value })}/>
-      <input className="uploadpic" type="file" required onChange={(e) => this.setState({ images: e.target.value })}>
+      <input className="uploadpic" type="text" required onChange={(e) => this.setState({ images: e.target.value })}>
       </input>
+      <input type="button" value="Submit  " />
     </div>
   );
 }

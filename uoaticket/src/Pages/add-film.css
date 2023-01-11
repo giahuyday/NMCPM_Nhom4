@@ -1,116 +1,18 @@
-.box,
-.exit {
-  position: absolute;
-}
-.box {
-  top: 122px;
-  left: 196px;
-  border-radius: 43px;
-  background-color: #272a3a;
-  width: 1528px;
-  height: 836px;
-}
-.exit {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: #474957;
-  top: 162px;
-  right: 230px;
-  width: 55px;
-  height: 55px;
-}
-.rewrite-text {
-  position: absolute;
-  top: calc(50% - 16.5px);
-  left: calc(50% - 52px);
-  font-size: 28px;
-  font-family: Roboto;
-  color: #fff;
-  text-align: center;
-}
-.cancel {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: #4b4b4b;
-  position: absolute;
-  top: 811px;
-  left: 461px;
-  border-radius: 36px;
-  width: 364px;
-  height: 71px;
-}
-.update-text {
-  position: absolute;
-  top: calc(50% - 16.5px);
-  left: calc(50% - 55.5px);
-  font-size: 28px;
-  font-family: Roboto;
-  color: #fff;
-  text-align: center;
-}
-.summit {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: #f90a53;
-  position: absolute;
-  top: 811px;
-  left: 850px;
-  border-radius: 36px;
-  width: 609px;
-  height: 71px;
-}
-.category,
-.detail {
-  border: 0;
-  background-color: #474957;
-  position: absolute;
-  right: 0;
-  border-radius: 13px;
-  width: 607px;
-}
-.detail {
-  bottom: 0;
-  height: 350px;
-}
-.category {
-  top: calc(50% - 175px);
-  height: 71px;
-}
-.name,
-.uploadpic, .preview-image {
-  position: absolute;
-  top: 0;
-}
-.name {
-  border: 0;
-  background-color: #474957;
-  right: 0;
-  border-radius: 13px;
-  width: 607px;
-  height: 71px;
-}
-.uploadpic, .preview-image {
-  height: 100%;
-  bottom: 0;
-  left: 0;
-  background-color: #989898;
-  border: 1px solid #707070;
+* {
+  padding: 0px; 
+  margin: 0px;
   box-sizing: border-box;
-  width: 364px;
 }
-.form {
-  position: absolute;
-  top: 230px;
-  left: 461px;
-  width: 996px;
-  height: 530px;
+
+html{
+  background: #30105e;
+    background-size: cover;
+    background-attachment: fixed;
 }
+
 .admin-add-film {
-  position: relative;
-  background-color: #101325;
-  width: 100%;
-  height: 1080px;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }

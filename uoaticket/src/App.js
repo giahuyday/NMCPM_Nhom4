@@ -11,6 +11,8 @@ import News from "./Pages/news_ver2"
 import Career from "./Pages/career_ver2"
 // import FilmListing from "./Pages/film_listing"
 // import Theatre from './Pages/theatre';
+import AdminAddFilm from './Pages/add-film';
+import FilmListing from "./Pages/FilmListing"
 import FilmComponent from './Pages/FilmComponent';
 function App() {
   return (
@@ -22,7 +24,8 @@ function App() {
         <Route exact path="/signup" element={<Signup/>}/>
         <Route exact path="/product" element={<Products/>}/>
         <Route exact path="/career" element={<Career/>}/>
-        <Route exact path="/discount" element={<FilmComponent/>}/>
+        <Route exact path="/discount" element={<FilmListing/>}/>
+        <Route exact path="/adfilm" element={<AdminAddFilm/>}/>
         <Route exact path="/news_ver2" element={<News/>}/>
         <Route exact path="/career_ver2" element={<Career/>}/>
       </Routes> 
