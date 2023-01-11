@@ -1,0 +1,9 @@
+.list{
+    padding: 100px 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+     /* background-color: #272a3a; */
+    color: white
+}

@@ -23,7 +23,7 @@ function Navbar() {
                         <Link to="/home" className="nav-link" path="/">Trang chủ</Link>
                         <Link to="/theatre" className="nav-link" path="/theatre">Rạp</Link>
                         <Link to="/news" className="nav-link" path="/news">Tin tức</Link>
-                        <Link to="/discount" className="nav-link" path="/discount">Ưu đãi</Link>
+                        <Link to="/allfilm" className="nav-link" path="/allfilm">Phim</Link>
                         <Link to="/career" className="nav-link" path="/">Tuyển dụng</Link>
                         <Link to="/product" className="nav-link" path="/">Phim</Link>
                     </div>
