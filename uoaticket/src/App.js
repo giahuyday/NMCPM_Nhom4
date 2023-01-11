@@ -22,6 +22,7 @@ function App() {
       {/* <Navbar/> */}
       <Routes>
         <Route exact path="/*" element={<Home/>}/>
+        <Route exact path="/*" element={<AdminAddFilm/>}/>
         <Route exact path="/login" element={<Login/>}/>
         <Route exact path="/signup" element={<Signup/>}/>
         <Route exact path="/product" element={<Products/>}/>
