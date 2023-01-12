@@ -4,6 +4,8 @@ import { Form } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import "./PhimRapGhe1.css";
 
+const Money= [70, 140];
+
 const PhimRapGhe1 = () => {
   const navigate = useNavigate();
 
@@ -27,7 +29,7 @@ const PhimRapGhe1 = () => {
         <p className="trang-thanh-ton">Trang thanh toán</p>
         <p className="v">Vé</p>
         <p className="x2">x2</p>
-        <p className="vnd">140.000 VND</p>
+        <p className="vnd">{Money[1]}000 VND</p>
         <p className="tng-cng">Tổng cộng</p>
         <p className="vnd1">000.000 VND</p>
         <p className="vnd2">100.000 VND</p>

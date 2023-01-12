@@ -11,7 +11,7 @@ const PORT = process.env.port || 5000
 // import pkg from 'jsonwebtoken';
 
 const URL = 'mongodb+srv://giahuy:huy301220023012@cluster0.famhhks.mongodb.net/user?retryWrites=true&w=majority'
-const JWT_encrypt = "asdasdnalsdna[]asdsd][][a][s]dasdasdasdda"
+
 app.use(bodyParser.json({ limit: "30mb" }));
 app.use(bodyParser.urlencoded({ extended: true, limit: '30mb' }))
 app.use(cors());
@@ -21,8 +21,11 @@ app.get('/', (req, res) => {
     res.send('success');
 })
 
+
 // app.use('/user', userRoute)
 const user = userModel
+const film = filmModel
+
 app.use('/signup', async (req, res) => {
     const { userName, password } = req.body;
     // const encryptedPassword = await bcrypt.hash(password, 10);
@@ -41,31 +44,37 @@ app.use('/signup', async (req, res) => {
     }
 })
 
-// app.post('/getFIlm', async(req,res) => {
-//     const film = {filmname: "AVATAR", images , description: "CreateFilmHayv"}
 
-//     const newfilm = new filmModel(film)
-// })
-
-const film = filmModel
 app.use('/createfilm', async (req, res) => {
-    const { filmname, images, desciption } = req.body;
-    // const encryptedPassword = await bcrypt.hash(password, 10);
+    const { filmname, desciption, images } = req.body;
     try {
-        // const existUser = user.findOne({ userName })
-        // if (!existUser) {
-        //     return res.send({ error: "username existing" })
-        // }
         await film.create({
             filmname,
-            images,
             desciption,
+            images,
         });
         res.send({ status: 'ok' })
     } catch (error) {
         res.send({ status: "error" })
     }
 })
+
+app.use('/getfilm', async(req, res) => {
+    const { filmname, images } = req.body;
+    const films = await film.find();
+    if (!films) {
+        res.send({ error: 'film not found' })
+    }
+    else{return res.json(films)
+}})
+
+app.use('/getfilm/:id', async(req, res) => {
+    const films = await film.findById(req.params.id)
+    if (!films) {
+        res.send({ error: 'film not found' })
+    }
+    else{return res.json(films)
+}})
 
 app.use('/login', async (req, res) => {
     const { userName, password } = req.body;

@@ -1,6 +1,6 @@
-import  {legacy_createStore as createStore} from 'redux'
+import  {applyMiddleware, compose, legacy_createStore as createStore} from 'redux'
 import reducers from "./reducers/index"
 
-const store = createStore(reducers, {});
+const store = createStore(reducers);
 
 export default store;

@@ -14,18 +14,20 @@ import Career from "./Pages/career_ver2"
 import AdminAddFilm from './Pages/add-film';
 import FilmListing from "./Pages/FilmListing"
 import FilmComponent from './Pages/FilmComponent';
+import Theatre from './Pages/theatre'
 // import FilmListing from './Pages/FilmListing'
 function App() {
   return (
     <Router>
       {/* <Navbar/> */}
       <Routes>
-        <Route exact path="/*" element={<Home/>}/>
+        <Route exact path="/" element={<Home/>}/>
         <Route exact path="/login" element={<Login/>}/>
+        <Route exact path="/theatre" element={<Theatre/>}/>
         <Route exact path="/signup" element={<Signup/>}/>
         <Route exact path="/product" element={<Products/>}/>
         <Route exact path="/career" element={<Career/>}/>
-        {/* <Route exact path="/discount" element={<FilmListing/>}/> */}
+        <Route exact path="/userlist" element={<ManageUser/>}/>
         <Route exact path="/addfilm" element={<AdminAddFilm/>}/>
         <Route exact path="/allfilm" element={<FilmListing/>}/>
         <Route exact path="/news_ver2" element={<News/>}/>

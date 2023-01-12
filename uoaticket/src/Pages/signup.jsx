@@ -42,12 +42,12 @@ export default class Signup extends Component{
                 <div className="signup-box">
                     <h1>Đăng ký</h1>
                     <p>Bạn đã có tài khoản?<Link to='/login'> Đăng nhập ngay.</Link></p>
-                    <form action="signup" method="post" onSubmit={this.handleSubmit}>
+                    <form action="signup" method="post" >
                         <input className="text" type="text" name="EmailAdress" placeholder="Nhập địa chỉ email"
                              onChange={(e) => this.setState({ userName: e.target.value })}></input>
                         <input className="text" type="password" name="password" placeholder="Mật khẩu" onChange={(e) => this.setState({ password: e.target.value })}></input>
                         <input className="text w3lpass" type="password" name="password" placeholder="Nhập lại mật khẩu" required=""></input>
-                        <input type="button" value="Đăng ký"></input>
+                        <input type="button" value="Đăng ký" onClick={this.handleSubmit}></input>
                         {/*<p>Đăng nhập bằng phương thức khác</p>*/}
                     </form>
                 </div>

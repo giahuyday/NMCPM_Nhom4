@@ -1,8 +1,9 @@
 import { combineReducers} from 'redux'
-import { filmReducer } from './film'
+import { filmReducer, selectedProductReducer } from './film'
 
 const reducers = combineReducers({
     allFilms: filmReducer,
+    film: selectedProductReducer
 });
 
 export default reducers

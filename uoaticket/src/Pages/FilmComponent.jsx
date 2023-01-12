@@ -1,20 +1,23 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import './FilmComponent.css'
+import {Link} from 'react-router-dom'
+
 const FilmComponent = () => {
     const products = useSelector((state) => state.allFilms.products);
     const renderList = products.map((product) => {
-        const {id, title, image, price, category} = product
+        const { _id, filmname, images/*id, title, image, price, category*/ } =  product;
         return (
-                    <div className="card" key={id}>
-                        <div className="image"><img src={image} alt={title} /></div>
-                        <div className="content">
-                            <div className="header">{title}</div>
-                            <div className="meta price">${price}</div>
-                            <div className="meta">{category}</div>
-                        </div>
-    
-                    </div>
+            <div className="card" key={_id}>
+                <Link to={`/allfilm/${_id}`}>
+                <div className="image"><img src={images} alt='' /></div>
+                <div className="content">
+                    <div className="header">{filmname}</div>
+                    {/* <div className="meta price">${price}</
+                     */}
+                </div>
+                </Link>
+            </div>
         )
     })
     return <>{renderList}</>

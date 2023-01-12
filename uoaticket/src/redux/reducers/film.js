@@ -13,3 +13,12 @@ export const filmReducer = (state = initialState, { type, payload }) => {
             return state;
     }
 }
+
+export const selectedProductReducer = (state={}, {type, payload}) =>  {
+    switch (type) {
+        case FilmAction.SELECTED_PRODUCTS:
+            return { ...state, ...payload };
+        default:
+            return state;
+    }
+}
